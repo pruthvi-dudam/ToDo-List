@@ -1,0 +1,31 @@
+**Task Description: Todo List Application**
+
+**Objective:**
+Build a simple Todo List application using React. The application should allow users to manage a list of tasks, including adding new tasks, editing existing tasks, and deleting tasks.
+
+**Key Features:**
+1. **Task List Display:**
+   - Display the list of tasks in a clear and organized manner.
+   - Each task should show its description and an option to mark it as completed.
+
+2. Add Task Functionality:
+   - Include a form or input field where users can add new tasks.
+   - When a user enters a new task and submits the form or button, it should be added to the list.
+
+4. Delete Task Functionality:
+   - Provide an option (e.g., a delete button) for users to remove a task from the list.
+   - Include a confirmation prompt before deleting to prevent accidental deletions. (optional)
+
+5. Task Completion Status:
+   - Allow users to mark a task as completed.
+   - Visually differentiate between completed and pending tasks.
+
+Implementation Ideas:
+- Utilize React state to manage the list of tasks. Each task should be represented as an object with properties like `id`, `description`, and `completed`.
+- Use controlled components for form inputs to manage their state.
+- Implement functions to handle adding, editing, and deleting tasks, updating the state accordingly.
+- Apply conditional rendering to show different UI elements based on the completion status of tasks.
+- Consider styling the application for a clean and user-friendly interface.
+
+Bonus Feature (Optional):
+- Sorting tasks based on completion status or alphabetical order.
